@@ -83,7 +83,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: inherit;
+  font-size: inherit;
 }
 
 p {
@@ -93,7 +93,7 @@ p {
 
 .container {
   max-width: 1200px;
-  padding: 0 0 0 5px;
+  padding: 2px 0 0;
   margin: 0 auto;
 }
 
@@ -104,7 +104,7 @@ p {
 }
 
 .menu {
-  margin-right: 58px;
+  margin-right: 62px;
 }
 
 .header__logo:hover {
@@ -130,7 +130,7 @@ p {
 
 .bike {
   border: 0;
-  padding: 90px 0 150px;
+  padding: 88px 0 150px;
 }
 .bike__inner {
   display: flex;
@@ -138,7 +138,7 @@ p {
 }
 .bike__left {
   padding: 78px 0 0;
-  min-width: 570px;
+  flex-basis: 570px;
 }
 .bike__left_title {
   margin: 0 0 5px;
@@ -149,6 +149,7 @@ p {
 .bike__left_subtitle {
   margin: 0 0 60px;
   font-size: 32px;
+  font-weight: 400;
   line-height: 39px;
   color: #6F6F6F;
 }
@@ -159,7 +160,7 @@ p {
   margin: 0 0 20px;
 }
 .bike__left_text:nth-of-type(2) {
-  margin: 0 0 107px;
+  margin: 0 0 108px;
 }
 .bike__left_order {
   padding: 28px 58px 28px 82px;
@@ -172,6 +173,9 @@ p {
 }
 .bike__left_order:hover {
   background-color: #FF4040;
+}
+.bike__right {
+  flex-basis: 630px;
 }
 .bike__list {
   display: flex;
@@ -206,4 +210,41 @@ p {
   font-size: 12px;
   line-height: 15px;
   text-transform: lowercase;
+}
+
+.info {
+  margin: 0 0 150px;
+}
+.info__inner {
+  display: flex;
+}
+.info__img {
+  margin: 0 60px 0 0;
+  flex-basis: 570px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: top center;
+     object-position: top center;
+}
+.info__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 490px;
+}
+.info__list-item {
+  color: #131313;
+}
+.info__list-item_title {
+  margin: 0 0 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.info__list-item_text {
+  max-width: 450px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
 }

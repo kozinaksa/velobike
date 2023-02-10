@@ -1,6 +1,6 @@
 .bike {
   border: 0;
-  padding: 90px 0 150px;
+  padding: 88px 0 150px;
 
   &__inner {
     display: flex;
@@ -9,7 +9,7 @@
 
   &__left {
     padding: 78px 0 0;
-    min-width: 570px;
+    flex-basis: 570px;
 
     &_title {
       margin: 0 0 5px;
@@ -21,6 +21,7 @@
     &_subtitle {
       margin: 0 0 60px;
       font-size: 32px;
+      font-weight: 400;
       line-height: 39px;
       color: #6F6F6F;
     }
@@ -33,7 +34,7 @@
       }
 
       &:nth-of-type(2) {
-        margin: 0 0 107px;
+        margin: 0 0 108px;
       }
     }
 
@@ -52,28 +53,9 @@
     }
   }
 
-  // &__right {
-  //   min-width: 630px;
-  // }
-
-  // &__slider {
-
-  //   &_img {
-  //   }
-
-  //   &_lines {
-  //     position: absolute;
-  //     top: 0;
-  //     left: 0;
-
-  //     & span {
-  //       display: block;
-  //       width: 2px;
-  //       height: 6px;
-  //       background-color: #FF4040;
-  //     }
-  //   }
-  // }
+  &__right {
+    flex-basis: 630px;
+  }
 
   &__list {
     display: flex;

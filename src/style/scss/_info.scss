@@ -1,0 +1,40 @@
+.info {
+  margin: 0 0 150px;
+
+  &__inner {
+    display: flex;
+  }
+
+  &__img {
+    margin: 0 60px 0 0;
+    flex-basis: 570px;
+    object-fit: contain;
+    object-position: top center;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 490px;
+
+    &-item {
+      color: #131313;
+
+      &_title {
+        margin: 0 0 10px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+      }
+
+      &_text {
+        max-width: 450px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+      }
+    }
+  }
+}

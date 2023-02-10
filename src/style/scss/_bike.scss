@@ -1,0 +1,117 @@
+.bike {
+  border: 0;
+  padding: 90px 0 150px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left {
+    padding: 78px 0 0;
+    min-width: 570px;
+
+    &_title {
+      margin: 0 0 5px;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 77px;
+    }
+
+    &_subtitle {
+      margin: 0 0 60px;
+      font-size: 32px;
+      line-height: 39px;
+      color: #6F6F6F;
+    }
+
+    &_text {
+      width: 420px;
+
+      &:nth-of-type(1) {
+        margin: 0 0 20px;
+      }
+
+      &:nth-of-type(2) {
+        margin: 0 0 107px;
+      }
+    }
+
+    &_order {
+      padding: 28px 58px 28px 82px;
+      background-color: #131313;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 1.105em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+
+      &:hover {
+        background-color: #FF4040;
+      }
+    }
+  }
+
+  // &__right {
+  //   min-width: 630px;
+  // }
+
+  // &__slider {
+
+  //   &_img {
+  //   }
+
+  //   &_lines {
+  //     position: absolute;
+  //     top: 0;
+  //     left: 0;
+
+  //     & span {
+  //       display: block;
+  //       width: 2px;
+  //       height: 6px;
+  //       background-color: #FF4040;
+  //     }
+  //   }
+  // }
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 27px 30px 0 47px;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 13px 0 0;
+
+      &:nth-child(2) {
+        margin: 0 0 0 8px;
+      }
+
+      &:nth-child(3) {
+        margin: 0 0 0 -10px;
+      }
+
+      & span:nth-child(1) {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        padding: 0 0 5px;
+      }
+
+      & span:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 31px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: lowercase;
+      }
+    }
+  }
+}
